@@ -43,7 +43,6 @@ body {
     color       : #353e55;
     font-weight : 100;
     background  : #ffffff;
-    border      : 10px solid #fff;
     }
 
 /* --------------------------------------
@@ -52,7 +51,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin : 0 0 15px;
-    color  : #0e1555;
+    color  : #fff;
     }
 
 h1 {
@@ -187,20 +186,20 @@ button:focus,
  * -------------------*/
 
 .gray-bg {
-    background-color : #f0f1f3;
+    background-color : #deac4d;
     border-top       : 1px solid #eeeeee;
     border-bottom    : 1px solid #eeeeee;
     }
 
 .white-bg {
-    background-color : #ffffff;
+    background-color : #01213b;
     }
 
 /* --------------------
  *  main Wrapper
  * -------------------*/
 #main-wrapper {
-    background : #ffffff;
+    background : #01213b;
     overflow   : hidden;
     }
 
@@ -443,13 +442,17 @@ button:focus,
 
 .about-event address {
     font-size   : 15px;
-    color       : #888888;
+    color       : #ffffff;
     line-height : 1.8em;
     }
 
 .about-event address strong {
-    color : #353e55;
+    color : #ffffff;
     }
+
+.about-event .container {
+    color: #ffffff;
+}
 
 /* ----------------------------------------------
  * Team Section
@@ -546,6 +549,10 @@ button:focus,
     display     : block;
     line-height : 1;
     }
+
+.section-ajenda time {
+    color: #ffffff;
+}
 
 /* --------------------------
  * Pricing Table
