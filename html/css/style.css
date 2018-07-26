@@ -185,10 +185,8 @@ button:focus,
  * Section Background
  * -------------------*/
 
-.gray-bg {
+.yellow-bg {
     background-color : #deac4d;
-    border-top       : 1px solid #eeeeee;
-    border-bottom    : 1px solid #eeeeee;
     }
 
 .white-bg {
