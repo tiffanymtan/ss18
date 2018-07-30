@@ -298,13 +298,14 @@ button:focus,
 
     .main-menu .nav li a {
         padding : 5px 0;
-        color: #0e1555;
+        color: #fff;
         }
 
     .navbar-collapse {
         margin-top : 10px;
-        background: #fff;
+        background: #01213b;
         }
+
     }
 
 
@@ -328,7 +329,7 @@ button:focus,
     }
 
 .sticky-nav .navbar-toggle .icon-bar{
-    background: #333;
+    background: #fff;
     }
 
 @media (max-width: 768px) {
@@ -427,7 +428,7 @@ button:focus,
 
 .section-title p {
     font-size : 18px;
-    color     : #888888;
+    color     : #black;
     }
 
 /* ----------------------------------------------
@@ -491,7 +492,7 @@ button:focus,
 
 .team .thumbnail h3 small {
     font-size: 14px;
-    color     : #888;
+    color     : black;
     display: block;
     font-weight: normal;
     }
@@ -623,6 +624,19 @@ button:focus,
 .pricing-section .pricing-detail .pink-i li {
     position : relative;
     }
+
+.pricing-section .container .row{
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 600px) {
+    .pricing-section .container .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 /* --------------------------
  * Client Logo 
