@@ -32,7 +32,7 @@ Author: uiCookies.com
 
 # Body  (text): #888
 # Heading Color #0E1555
-# Theme Color (link color) #FD367E
+# Theme Color (link color) #ff0062
 # Mid grey (sub header) #666666
 # -------------------------------------------------------------------*/
 
@@ -93,7 +93,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #fd367e;
+    color              : #ff0062;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -148,16 +148,16 @@ ul {
 
 /*btn-primary*/
 .btn-primary {
-    background-color : #fd367e;
-    border-color     : #fd367e;
+    background-color : #ff0062;
+    border-color     : #ff0062;
     }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active:focus {
     background   : transparent;
-    color        : #fd367e;
-    border-color : #fd367e;
+    color        : #ff0062;
+    border-color : #ff0062;
     }
 
 /*btn-default*/
@@ -171,8 +171,8 @@ ul {
 .btn-default:focus,
 .btn-default:active:focus {
     background-color : transparent;
-    color            : #fd367e;
-    border-color     : #fd367e;
+    color            : #ff0062;
+    border-color     : #ff0062;
     }
 
 button:focus,
@@ -277,7 +277,7 @@ button:focus,
 
 .main-menu .nav li a:hover,
 .main-menu .nav li.active a {
-    color      : #fd367e;
+    color      : #ff0062;
     background : transparent;
     }
 
@@ -711,7 +711,7 @@ button:focus,
 .form-control:focus,
 .form-control:active {
     box-shadow   : none;
-    border-color : #fd367e;
+    border-color : #ff0062;
     }
 
 
