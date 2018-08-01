@@ -344,7 +344,7 @@ button:focus,
  *-------------------*/
 
 .jumbotron {
-    background            : url("../img/background-img.jpg");
+    background            : url("../img/background-ss18-2.jpg");
     background-size       : cover;
     padding               : 0;
     margin                : 0;
@@ -380,6 +380,7 @@ button:focus,
 
 .jumbotron .content p.lead {
     font-size   : 24px;
+    font-weight : 300;
     line-height : 1.5em;
     color       : rgba(255, 255, 255, .7);
     }
@@ -428,6 +429,7 @@ button:focus,
 
 .section-title p {
     font-size : 18px;
+    font-weight: 300;
     color     : #black;
     }
 
@@ -772,3 +774,40 @@ button:focus,
     text-align : center;
     top        : 65%;
     }
+
+/* ---------------------------------------------- /*
+ * Social Media
+/* ---------------------------------------------- */
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.fa {
+    padding: 20px;
+    margin: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
