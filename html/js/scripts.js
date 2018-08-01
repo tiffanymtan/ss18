@@ -104,4 +104,8 @@ jQuery(function ($) {
         }
     }());
 
+    $('.btn-lg').click(function(){
+        window.location = "https://goo.gl/forms/DXAhoQgQ7SoZGVF53";
+    });
+
 }); // JQuery end
