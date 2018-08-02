@@ -475,7 +475,7 @@ button:focus,
     }
 
 .team .thumbnail img {
-    width : 100%;
+    width : 60%;
     }
 
 .team .thumbnail .caption {
@@ -546,17 +546,17 @@ button:focus,
     text-transform : uppercase;
     }
 
+.section-ajenda .session h3 span {
+    font-size   : 14px;
+    display     : block;
+    line-height : 1;
+    }
+
 .section-ajenda .session p {
     margin		: 20px 0 20px 20px;
     color		: #fff;
     text-align	: justify;	 
     font-size	: 18px;
-    }
-
-.section-ajenda .session h3 span {
-    font-size   : 14px;
-    display     : block;
-    line-height : 1;
     }
 
 .section-ajenda time {
