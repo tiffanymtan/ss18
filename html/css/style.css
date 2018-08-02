@@ -671,6 +671,13 @@ button:focus,
         }
     }
 
+#section-partner .row {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 300;
+}
+
 /* ------------------
  * Google Map
  * ------------------*/
@@ -680,6 +687,11 @@ button:focus,
     border        : 5px solid #ffffff;
     margin-bottom : 100px;
     }
+
+.GM .col-md-4 address {
+    color: black;
+    font-weight: 300;
+}
 
 /* ---------------------------
  * Subscribe Form
