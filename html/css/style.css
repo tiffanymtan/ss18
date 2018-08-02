@@ -465,6 +465,7 @@ button:focus,
     background-color : transparent;
     border           : 0;
     margin-bottom: 30px;
+    
     }
 
 @media (max-width : 767px) {
