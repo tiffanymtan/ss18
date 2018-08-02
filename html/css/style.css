@@ -688,7 +688,8 @@ button:focus,
     margin-bottom : 100px;
     }
 
-.GM .col-md-4 address {
+address {
+	margin-top:50px;
     color: black;
     font-weight: 300;
 }
