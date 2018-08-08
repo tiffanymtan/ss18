@@ -693,6 +693,9 @@ address {
     color: black;
     font-weight: 300;
 }
+.map img{
+    width: 100%;
+}
 
 /* ---------------------------
  * Subscribe Form
